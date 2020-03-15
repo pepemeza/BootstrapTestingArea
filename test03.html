@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buttons</title>
+	<meta name="viewport" content="device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+	<style>
+		#packtpub
+		{
+			padding-top: 25px;
+			padding-bottom: 25px; 
+			padding-right: 50px; 
+			padding-left: 50px; 
+		}
+	</style>
+</head>
+<body id="packtpub">
+	<h1> <u> Different kinds of buttons in Bootstrap </u> </h1>
+	<br/>
+	<button type="button" class="btn btn-default">Default Button</button>
+	<br/><br/>
+	<button type="button" class="btn btn-primary">Primary Button</button>
+	<br/><br/>
+	<button type="button" class="btn btn-success btn-lg">Success Button</button>
+    <br><br>
+    <button type="button" class="btn btn-info btn-sm">Info Button</button>
+    <br><br>
+    <button type="button" class="btn btn-warning btn-xs">Warning Button</button>
+    <br><br>
+    <button type="button" class="btn btn-danger">Danger Button</button>
+    <br><br>
+    <button type="button" class="btn btn-link">Link Button</button>
+	<br/><br/>
+	
+	<h1> Formularios </h1>
+	<form role="form">
+       <div class="form-group">
+         <label for="enterusername"> Enter Email Address as Username</label>
+         <input type="email" class="form-control" id="enterusername" placeholder="Enter email">
+       </div>
+       <div class="form-group">
+         <label for="enterpassword">Password</label>
+         <input type="password" class="form-control" id="enterpassword" placeholder="Password">
+       </div>
+       <br>
+       <div class="form-group">
+         <label for="filebrowse">Browse to find file</label>
+         <input type="file" id="filebrowse">
+       </div>
+       <br>
+       <div class="checkbox">
+         <label> <input type="checkbox"> Keep me signed in </label>
+       </div>
+	   <br>
+	   <div class="radio">
+         <label>
+           <input type="radio" name="optionsRadios" value="option1" id="radio1">
+           Male
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="optionsRadios" value="option2" id="radio2">
+           Female
+         </label>
+       </div>
+	   <br>
+       <button type="submit" class="btn btn-primary">Login</button>
+     </form>
+	 
+	 <h1> Segundo formulario</h1>
+	 <form role="form" class="form-inline">
+       <div class="form-group">
+         <label for="emailaddress" class="sr-only">Email Address</label>
+         <input type="email" class="form-control" id="emailaddress" placeholder="Enter email">
+       </div>
+       <div class="form-group">
+         <label for="enterpassword" class="sr-only">Password</label>
+         <input type="password" class="form-control" id="enterpassword" placeholder="Password">
+       </div>
+       <br>
+       <div class="checkbox">
+         <label> <input type="checkbox"> Keep me signed in </label>
+       </div>
+       <br>
+       <div class="radio">
+         <label>
+           <input type="radio" name="optionsRadios" value="option1" id="radio1">Male
+		 </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="optionsRadios" value="option2" id="radio2">Female
+		 </label>
+		</div>
+		<br/>
+		<p> Enter your comments in the following box </p>
+		<br>
+		<textarea rows="5" cols="70" placeholder="Your feedback is important to us">
+		</textarea>
+		<br>
+		<button type="submit" class="btn btn-default">Login</button>
+	 </form>
+	 
+	 <h2>Formulario horizontal</h2>
+	<form class="form-horizontal" role="form">
+		<div class="form-group" form-group-lg>
+			<label for="email_user" class="col-sm-2 control-label">Login</label>
+			<div class="col-sm-4">
+				<input type="email" class="form-control" id="email_user" placeholder="Email or username">
+			</div>
+		</div>
+		<div class="form-group" form-group-sm>
+			<label for="inputPassword" class="col-sm-2 control-label">Password</label>
+			<div class="col-sm-4">
+				<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+			</div>
+		</div>
+	  <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-4">
+        <button type="submit" class="btn btn-primary"> Login
+        </button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
